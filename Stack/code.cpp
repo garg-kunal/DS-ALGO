@@ -23,7 +23,7 @@ using namespace std;
 void Generate(char *a,int o,int c,int i,int n){
 	// Base case
 	if(i == 2*n){
-		// Then we need to stop and print the array
+		
 		a[i] = '\0';
 		cout<<a<<endl;
 		return;
@@ -44,10 +44,7 @@ void Generate(char *a,int o,int c,int i,int n){
 
 int main(){
 	
-	#ifndef ONLINE_JUDGE
-	freopen("input.txt","r",stdin);
-	freopen("output.txt","w",stdout);
-	#endif
+	
 	int n;
 	cin>>n;
 	char a[100];
